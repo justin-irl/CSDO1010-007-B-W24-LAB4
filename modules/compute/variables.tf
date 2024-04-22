@@ -7,12 +7,12 @@ variable "region" {
 
 variable "ssh_key_public" {
   type    = string
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa.pub"
+  default = "/Users/replicamask/.ssh/id_rsa.pub"
 }
 
 variable "ssh_key_private" {
   type    = string
-  default = "C:\\Users\\wessa\\.ssh\\id_rsa"
+  default = "/Users/replicamask/.ssh/id_rsa"
 }
 
 variable "security_group" {

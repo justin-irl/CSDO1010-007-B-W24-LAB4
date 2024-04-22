@@ -5,8 +5,8 @@
 Your report on this lab will be the basis for your grade.  The purpose of the report is to demonstrate to your instructor that you have completed the lab successfully and understood the material.  Please include the following screenshots as part of your evidence.
 
 - `webserver-Public-URL` and the `URL` assigned from the end of the Terraform apply output. Please do not include all of the output from apply, just the `webserver-Public-URL` value
-- Output from Docker-compose –version
-- Output from Docker-compose up -d to bring up the Ghost Blog
+- Output from `docker-compose -version`
+- Output from `docker-compose up -d` to bring up the Ghost Blog
 - Browser showing Ghost Blog, to include the address bar with public IP of the server you are using
 
 A portion of the grade will be allocated to the quality of the report.  The report should be well formatted, concise and to the point.  
