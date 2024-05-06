@@ -37,3 +37,6 @@ terraform.rc
 .env
 
 notes
+
+*/node_modules/*
+node_modules

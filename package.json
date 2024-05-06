@@ -7,6 +7,6 @@
     "markdownlint": "^0.34.0"
   },
   "scripts": {
-    "tf-check": "tflint --fix && terraform fmt -check -diff && terraform validate"
+    "tf-check": "tflint --fix && terraform fmt -recursive -diff && terraform validate"
   }
 }
